@@ -8,11 +8,71 @@
     
 }
 
+.footer {
+    background-color: purple; 
+    padding-top: 10px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+#instagram{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+#YouTube{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(252, 194, 202);
+    color: black;
+    text-align: center;
+}
+@media only screen and (max-width: 1075) {
+        
+    .product {
+        width: 70%;
+        height: 70%;
+    }
+    .icon {
+        width: 10px;
+        height: 10px;
+    }
+    
+}
+
 @media only screen and (max-width: 1030) {
         
         .product {
             width: 70%;
             height: 70%;
+        }
+        li {
+            list-style: none;
+            /* display: inline; */
+            margin-left: 5px;
+            margin-top: 1%;
         }
         
   }
